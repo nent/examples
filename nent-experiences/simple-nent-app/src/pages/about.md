@@ -1,0 +1,3 @@
+# About Us
+
+NENT was created with the aim of providing the next generation of aspiring creators the tools they would need to create quick, professional native-app like websites in a fraction of the time and most importantly with a fraction of the knowledge required. Not everyone who drives a car needs to know how everything works under the hood! NENT allows both developers new and starry-eyed as well as developers weary and bleary-eyed a way to quickly create content.
