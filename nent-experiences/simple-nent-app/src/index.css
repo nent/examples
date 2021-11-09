@@ -1,0 +1,158 @@
+body {
+  --background-color: rgb(195, 184, 255);
+  --text-color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-family:'Blinker', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  margin: 0 10vw;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='1440' preserveAspectRatio='none' viewBox='0 0 2560 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1051%26quot%3b)' fill='none'%3e%3crect width='2560' height='1440' x='0' y='0' fill='rgba(179%2c 154%2c 213%2c 1)'%3e%3c/rect%3e%3cpath d='M82 1440L1522 0L2195.5 0L755.5 1440z' fill='url(%23SvgjsLinearGradient1052)'%3e%3c/path%3e%3cpath d='M908.8000000000001 1440L2348.8 0L2504.8 0L1064.8000000000002 1440z' fill='url(%23SvgjsLinearGradient1052)'%3e%3c/path%3e%3cpath d='M2473 1440L1033 0L706 0L2146 1440z' fill='url(%23SvgjsLinearGradient1053)'%3e%3c/path%3e%3cpath d='M1593.1999999999998 1440L153.19999999999982 0L-347.8000000000002 0L1092.1999999999998 1440z' fill='url(%23SvgjsLinearGradient1053)'%3e%3c/path%3e%3cpath d='M1523.6973838482722 1440L2560 403.69738384827224L2560 1440z' fill='url(%23SvgjsLinearGradient1052)'%3e%3c/path%3e%3cpath d='M0 1440L1036.3026161517278 1440L 0 403.69738384827224z' fill='url(%23SvgjsLinearGradient1053)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1051'%3e%3crect width='2560' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1052'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1053'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+body.dark a {
+  color: rgb(255, 255, 255);
+}
+
+body.dark a:hover {
+  color: rgb(145, 145, 145);
+}
+
+body.dark nav a {
+  color: rgb(255, 255, 255);
+}
+
+body.dark {
+  --background-color: rgb(72, 15, 119);
+  --text-color: rgb(215, 223, 255);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='1440' preserveAspectRatio='none' viewBox='0 0 2560 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1048%26quot%3b)' fill='none'%3e%3crect width='2560' height='1440' x='0' y='0' fill='rgba(38%2c 14%2c 71%2c 1)'%3e%3c/rect%3e%3cpath d='M82 1440L1522 0L2195.5 0L755.5 1440z' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/path%3e%3cpath d='M908.8000000000001 1440L2348.8 0L2504.8 0L1064.8000000000002 1440z' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/path%3e%3cpath d='M2473 1440L1033 0L706 0L2146 1440z' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/path%3e%3cpath d='M1593.1999999999998 1440L153.19999999999982 0L-347.8000000000002 0L1092.1999999999998 1440z' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/path%3e%3cpath d='M1523.6973838482722 1440L2560 403.69738384827224L2560 1440z' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/path%3e%3cpath d='M0 1440L1036.3026161517278 1440L 0 403.69738384827224z' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1048'%3e%3crect width='2560' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+body.dark code {
+  color: rgb(255, 255, 255);
+  background-color: rgb(98, 57, 136);
+  width: 110vw;
+}
+body.dark h3 a {
+  color: rgb(163, 101, 221);
+}
+body.dark p a {
+  color: rgb(163, 101, 221);
+}
+
+n-app-theme-switch img {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#dark-mode {
+  display: none;
+}
+body.dark .show-dark {
+  display: block;
+}
+body.dark .show-light {
+  display: none;
+}
+.show-dark {
+  display: none;
+}
+
+.show-dark, .show-light {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 16rem;
+  padding-top: 10px;
+}
+
+h1 { font-weight: 600; font-size: 5rem; color: rgb(163, 101, 221);}
+h2 { font-weight: 500; font-size: 2.5rem;}
+h3 { font-weight: 400; font-size: 2rem;}
+h4 { font-weight: 200; font-size: 1.2rem;}
+h5 { font-weight: 200; font-size: 1rem;}
+
+nav {
+  background-color: rgba(163, 101, 221, 0.7);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+n-view-link {
+  display: block;
+}
+
+n-view-link a.active {
+  font-weight: bold;
+}
+
+n-views {
+  display: block;
+}
+
+n-view [slot='content'] {
+  display: block;
+  margin-top: 4rem;
+}
+
+.deep-buttons {
+  background-color: rgb(98, 57, 136);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width: 20vw;
+  margin: 0.5rem 30vw;
+  padding: 7px 5px;
+  font-weight: 400; font-size: 2.2rem;
+}
+
+pre {
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  background-color: rgb(98, 57, 136);
+  border-radius: 10px;
+  padding: 10px 10px;
+  color: rgb(235, 226, 243);
+}
+
+@media (max-width: 800px) {
+
+  .show-dark, .show-light {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 8rem
+  }
+  nav.row {
+    padding: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  h1 {
+    margin-left: 10px;
+  }
+}
